@@ -1,0 +1,20 @@
+# prefect.yaml
+version: 1
+deployments:
+  - name: rechnung
+    description: Creating Rechnung Files
+    entrypoint: rechnung.py:user_rechnung
+    schedule:
+      cron: "30 6 * * *"
+      timezone: "Europe/Berlin"
+    tags: []
+    parameters: {}
+
+  - name: NK
+    description: Creating Neukunden analytics for Qlik
+    entrypoint: NK.py:etl_process
+    schedule:
+      cron: "30 7 * * *"  
+      timezone: "Europe/Berlin"
+    tags: []
+    parameters: {}
