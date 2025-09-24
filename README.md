@@ -2,6 +2,9 @@
 
 A comprehensive ETL (Extract, Transform, Load) pipeline for processing customer data and performing advanced analytics including RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
 
+**Copyright (c) 2025 ETL Pipeline Project**  
+**Licensed under the MIT License - see [LICENSE](LICENSE) file for details.**
+
 ## 🚀 Features
 
 - **Multi-source Data Integration**: Processes customer data from multiple sources (addresses, transactions, emails, advertising)

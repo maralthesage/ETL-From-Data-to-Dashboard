@@ -3,6 +3,9 @@ Main orchestration script for the ETL pipeline.
 
 This script coordinates the execution of all ETL processes including
 customer data processing, RFM analysis, and customer segmentation.
+
+Copyright (c) 2025 ETL Pipeline Project
+Licensed under the MIT License - see LICENSE file for details.
 """
 
 import os
